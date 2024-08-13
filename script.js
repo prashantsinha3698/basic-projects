@@ -73,6 +73,9 @@ function playerResponse(playerHand){
 }
 function resetScorecard(){
     totalGames=0;totalWins=0;totalLoss=0;
+    element_resultMsg.innerHTML = ``;
+    element_computerHand.innerHTML = ``;
+    element_heading.innerHTML = ``;
     element_totalGames.innerHTML=`${totalGames}`;
     element_totalWins.innerHTML=`${totalWins}`;
     element_totalLoss.innerHTML=`${totalLoss}`;
