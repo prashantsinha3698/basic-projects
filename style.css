@@ -64,3 +64,20 @@ h2{
 .scoreboard h4{
     font-size: 16px;
 }
+.heading-reset{
+    width: 100%;
+    display: flex; /* Enables flexbox for layout */
+    justify-content: space-between; /* Distributes elements horizontally */
+    align-items: center;
+}
+.heading-reset h3 {
+    text-align: center;
+  }
+  
+.reset-button {
+    border: none; /* Removes default button border */
+    background-color: transparent; /* Removes default button background */
+    padding: 0; /* Removes default button padding */
+    width: 10%;
+    max-width: 20px;
+  }

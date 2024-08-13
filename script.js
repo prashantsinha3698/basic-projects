@@ -71,3 +71,10 @@ function playerResponse(playerHand){
     playComputer(playerHandIndex);
 
 }
+function resetScorecard(){
+    totalGames=0;totalWins=0;totalLoss=0;
+    element_totalGames.innerHTML=`${totalGames}`;
+    element_totalWins.innerHTML=`${totalWins}`;
+    element_totalLoss.innerHTML=`${totalLoss}`;
+    console.log(`Total Games: ${totalGames}\nTotal wins: ${totalWins}\nTotal Losses: ${totalLoss}`);
+}
