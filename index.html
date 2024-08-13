@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/6729/6729598.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gameContainer">
+        <div class="gameHading">
+            <h2>
+                Play Rock - Paper - Scissors!
+            </h2>
+        </div>
+        <div class="buttonInput">
+            <button class="gameBtn" id="Rock" value="rock" onclick="playerResponse(value)"><img src="./assets/rock.png" alt="" width="100%"></button>
+            <button class="gameBtn" id="Paper" value="paper" onclick="playerResponse(value)"><img src="./assets/paper.png" alt="" width="100%"></button>
+            <button class="gameBtn" id="Scissor" value="scissor" onclick="playerResponse(value)"><img src="./assets/scissor.png" alt=""width="100%"></button>
+        </div>
+        <div id="compHeading"></div>
+        <div class="compContainer">
+            <div id="computerHand"></div>
+        </div>
+        <div id="gameResult">
+        </div>
+        <div class="scoreboard">
+            <div class="total-game">
+                <h4>Total games: </h4>
+                <div id="total-games-played">0</div>
+            </div>
+            <div class="total-win">
+                <h4>Total wins: </h4>
+                <div id="total-wins">0</div>
+            </div>
+            <div class="total-loss">
+                <h4>Total losses: </h4>
+                <div id="total-losses">0</div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

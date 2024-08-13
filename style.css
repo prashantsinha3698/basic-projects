@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/*
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+*/
+body{
+    font-family: "Lato", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 232, 213);
+    margin:0px;
+}
+.gameContainer{
+    border: 0.3px rgb(85, 83, 47);
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+    max-width: 500px;
+
+}
+h2{
+    text-align: center;
+    font-weight: 600;
+    margin-top:10%;
+    margin-bottom: 10%;
+}
+.buttonInput{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.gameBtn{
+    border: none;
+    width:100px;
+    background-color: aliceblue;
+}
+#gameResult{
+    width: 100%;
+    max-height: 200px 30%;
+    border: 0.3px solid rgba(151, 151, 151, 0.477);
+    border-radius: 10px;
+    text-align: center;
+}
+.compContainer{
+    display: flex;
+    justify-content: center;
+
+}
+#computerHand{
+    width: 60%;
+    max-width: 88px;
+}
+.scoreboard{
+    border: 0.2px solid rgba(90, 90, 90, 0.267);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.scoreboard h4{
+    font-size: 16px;
+}
