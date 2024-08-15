@@ -1,5 +1,7 @@
 Hey There! This is a basic Rock-Paper-Scissors game created by Prashant Sinha.
 
+Check the working here: https://codepen.io/prashantsinha3698/pen/qBzpByy
+
 **About Me:**
 
 **Name:** Prashant Sinha
